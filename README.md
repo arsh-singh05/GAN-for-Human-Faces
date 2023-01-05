@@ -15,11 +15,11 @@ To run the code, you will need to have the following dependencies installed:
 
 To compile the code, navigate to the project directory in your terminal and run the following command:
 
-g++ main.cpp -o main `pkg-config --cflags --libs opencv`
+**g++ main.cpp -o main `pkg-config --cflags --libs opencv` **
 
 To run the code, enter the following command:
 
-./main
+**./main**
 
 The code will output synthetic images to the output directory as it trains. The training process can be stopped at any time by pressing CTRL+C.
 
@@ -28,8 +28,11 @@ The code will output synthetic images to the output directory as it trains. The 
 The following options can be modified in the code:
 
 LEARNING_RATE: the learning rate for the generator and discriminator networks (default: 0.001)
+
 NUM_EPOCHS: the number of epochs to train for (default: 200)
+
 BATCH_SIZE: the batch size for training (default: 64)
+
 
 ### Acknowledgements
 This project was inspired by the GAN tutorial at https://towardsdatascience.com/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0.
