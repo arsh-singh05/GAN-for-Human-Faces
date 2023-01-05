@@ -6,7 +6,8 @@ The GAN in this project is trained on a dataset of grayscale images of human fac
 
 During training, the generator and discriminator networks are trained alternately. First, the discriminator is trained on a real image from the training data, and the generator is trained to produce a synthetic image that the discriminator will classify as real. Then, the generator is trained on a noise vector, and the discriminator is trained to classify the resulting synthetic image as fake. The weights and biases of both networks are updated based on the error between the network's output and the target value (0 for the generator, 1 for the discriminator). This process is repeated for multiple iterations, until the GAN has learned to generate synthetic images that are realistic enough to fool the discriminator.
 
-##Getting Started
+## Getting Started
+
 To run the code, you will need to have the following dependencies installed:
 
 - C++ compiler
@@ -22,17 +23,18 @@ To run the code, enter the following command:
 
 The code will output synthetic images to the output directory as it trains. The training process can be stopped at any time by pressing CTRL+C.
 
-##Options
+## Options
+
 The following options can be modified in the code:
 
 LEARNING_RATE: the learning rate for the generator and discriminator networks (default: 0.001)
 NUM_EPOCHS: the number of epochs to train for (default: 200)
 BATCH_SIZE: the batch size for training (default: 64)
 
-###Acknowledgements
+### Acknowledgements
 This project was inspired by the GAN tutorial at https://towardsdatascience.com/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0.
 
-###License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Thank you for using this GAN! I hope it is able to generate some interesting and realistic synthetic images for you!
