@@ -29,9 +29,9 @@ The following options can be modified in the code:
 
 | Options | Description | Default Value |
 |     :---:    |     :---:      |     :---:      |
-| LEARNING_RATE   |the learning rate for the generator and discriminator networks  | 0.001   |
-| NUM_EPOCHS   | the number of epochs to train for    | 200   |
-| BATCH_SIZE   | the batch size for training    | 64   |
+| LEARNING_RATE   |learning rate for the generator and discriminator networks  | 0.001   |
+| NUM_EPOCHS   | number of epochs to train for    | 200   |
+| BATCH_SIZE   | batch size for training    | 64   |
 
 
 ### Acknowledgements
